@@ -3,7 +3,7 @@ import { fileURLToPath, URL } from 'node:url'
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
-const githubPageRepoBase = '/la-boite-a-sel/'
+const githubPageRepoBase = 'la-boite-a-sel'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -17,11 +17,11 @@ export default defineConfig({
     host: 'localhost',
     port: 5131,
     strictPort: true,
-    base: process.env.NODE_ENV === 'production' ? githubPageRepoBase : '/',
+    base: process.env.NODE_ENV === 'production' ? '/' + githubPageRepoBase + '/' : '/',
   },
   build: {
     outDir: 'docs',
-    // assetsDir:
-    //   process.env.NODE_ENV === 'production' ? githubPageRepoBase : 'assets',
+    assetsDir:
+      process.env.NODE_ENV === 'production' ? githubPageRepoBase + '/assets' : 'assets',
   },
 })

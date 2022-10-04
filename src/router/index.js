@@ -1,21 +1,24 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import { createRouter, createWebHashHistory } from 'vue-router'
+// import HomeView from '../views/HomeView.vue'
+import SoundListView from '../views/SoundListView.vue'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
       name: 'home',
-      component: HomeView,
+      component: SoundListView,
     },
     {
-      path: '/about',
-      name: 'about',
+      path: '/sound/:soundId',
+      name: 'soundById',
+      props: true,
+      component: SoundListView,
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('../views/AboutView.vue'),
+      // component: () => import('../views/SoundListView.vue'),
     },
   ],
 })

@@ -1,0 +1,21 @@
+version: '3.7'
+
+services:
+  node17_cli:
+    build: node/cli/17x
+    container_name: laboiteasel_node17_cli
+    user: ${DEV_UID:-1000}:${DEV_GID:-1000}
+    environment:
+      - IS_LOCAL_DOCKER=true
+      - NODE_ENV=unknown
+      - TERM=xterm-color
+      - CHOKIDAR_USEPOLLING=true
+    cap_add:
+      - SYS_PTRACE
+    networks:
+      - mainnet
+    env_file: ../.env.docker
+    volumes:
+      - type: "bind"
+        source: "${WWW_PATH_HOST}"
+        target: "/workspace"

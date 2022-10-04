@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  node17_cli:
+    ports:
+      - "5131:5131"
+    environment:
+      - NODE_ENV=development
+#      - NODE_CONFIG_ENV=localdocker
+      - TERM=xterm-color
+#    restart: on-failure
+#    entrypoint: [ "/entrypoint-cmd-npm.sh", "serve" ]
+

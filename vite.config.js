@@ -15,7 +15,7 @@ export default defineConfig({
     host: 'localhost',
     port: 5131,
     strictPort: true,
-    base: process.NODE_ENV === 'production' ? '/la-boite-a-sel/' : '/',
+    base: process.env.NODE_ENV === 'production' ? '/la-boite-a-sel/' : '/',
   },
   build: {
     outDir: 'docs'

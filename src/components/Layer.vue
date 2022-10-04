@@ -25,7 +25,10 @@ export default {
       this.$router.push({path: '/'})
     },
     onFilterClick () {
-      searchText(this.searchText)
+      if (typeof this.searchText !== 'string' ||this.searchText.trim() === '') {
+        return null
+      }
+      searchText(this.searchText.trim())
     }
   },
 }

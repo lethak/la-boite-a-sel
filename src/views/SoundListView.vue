@@ -61,8 +61,8 @@ export default {
 <template>
   <div id="list">
     <ul>
-      <template v-for="(item, index) in items">
-        <SoundButtonLi :soundId="item.id" :searchIndexKey="parseInt(index)" :buttonLabel="item.sound_buttonLabel" :autoPlay="playFirst" />
+      <template v-for="(item, index) in items" :key="item.id">
+        <SoundButtonLi :soundId="item.id" :buttonLabel="item.sound_buttonLabel" :autoPlay="playFirst" />
       </template>
     </ul>
   </div>

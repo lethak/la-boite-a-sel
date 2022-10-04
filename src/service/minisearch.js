@@ -3,7 +3,7 @@
  */
 import { v5 as uuidv5 } from 'uuid'
 import MiniSearch from 'minisearch'
-import manifestContent from '../../public/artists/manifest.built.json'
+import manifestContent from '../manifest.artists.built.json'
 
 import mitt from 'mitt'
 export const eventBus = mitt()

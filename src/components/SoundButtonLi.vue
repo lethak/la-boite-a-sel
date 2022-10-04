@@ -15,11 +15,6 @@ export default {
       required: true,
       // default: undefined,
     },
-    searchIndexKey: {
-      type: Number,
-      required: true,
-      // default: undefined,
-    },
     buttonLabel: {
       type: String,
       required: true,
@@ -34,7 +29,7 @@ export default {
   components: [
   ],
   mounted () {
-      const searchResult = [getResultFromIndex(this.searchIndexKey)]
+      const searchResult = [getResultFromId(this.soundId)]
       howlerController.eventBus.on('onplay', (e) => {
         if (searchResult[0].id === e.soundId) {
           console.warn('onplay', e)
@@ -63,15 +58,19 @@ export default {
   },
   updated () {
     if (this.autoPlay && !this.hasAutoplayed) {
-      this.onPlaySoundClick(this.soundId)
+      this.onPlaySoundClick(undefined, this.soundId)
       this.hasAutoplayed = true
     }
   },
   methods: {
-    onPlaySoundClick (lookup = undefined) {
+    onPlaySoundClick (e, lookup = undefined) {
       if (!this.isPlaying) {
         this.isPlaying = true
-        const searchResult = [typeof lookup === 'string' ? getResultFromId(lookup): getResultFromIndex(this.searchIndexKey)]
+        if (lookup === undefined) {
+          lookup = this.soundId
+        }
+        const searchResult = [getResultFromId(lookup)]
+        console.log('XXX lookup', lookup)
         howlerController.playSoundBy(searchResult[0].artist_name, searchResult[0].sound_fileName, searchResult[0].id)
       } else {
         howlerController.unload()

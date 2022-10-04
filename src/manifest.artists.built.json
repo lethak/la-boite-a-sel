@@ -103,13 +103,6 @@
           "transcript": "Comme il se doit",
           "fileExists": true
         },
-        "L66 - Decouvrir la fiente.mp3": {
-          "fileName": "L66 - Decouvrir la fiente.mp3",
-          "buttonLabel": "Decouvrir la fiente",
-          "tags": [],
-          "transcript": "Decouvrir la fiente",
-          "fileExists": true
-        },
         "L66 - Devinez la fiente.mp3": {
           "fileName": "L66 - Devinez la fiente.mp3",
           "buttonLabel": "Devinez la fiente",
@@ -124,11 +117,11 @@
           "transcript": "Encore une fois",
           "fileExists": true
         },
-        "L66 - Et ca change quoi.mp3.mp3": {
-          "fileName": "L66 - Et ca change quoi.mp3.mp3",
-          "buttonLabel": "Et ca change quoimp3",
+        "L66 - Et ca change quoi.mp3": {
+          "fileName": "L66 - Et ca change quoi.mp3",
+          "buttonLabel": "Et ca change quoi",
           "tags": [],
-          "transcript": "Et ca change quoimp3",
+          "transcript": "Et ca change quoi",
           "fileExists": true
         },
         "L66 - Et on va y aller.mp3": {

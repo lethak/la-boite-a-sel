@@ -4,10 +4,10 @@
   "scripts": {
     "prebuild": "node prebuild/bin/build-all-artist-manifest.js",
     "dev": "npm run prebuild && vite --host",
-    "build_dev": "npm run prebuild && vite build",
+    "build_dev": "NODE_ENV=development npm run prebuild && vite build --mode staging",
     "preview": "npm run build_dev && vite preview --port 5131 --host",
-    "build": "npm run build_prod",
     "build_prod": "NODE_ENV=production npm run prebuild && vite build",
+    "build": "NODE_ENV=production npm run build_prod",
     "postbuild_prod": "mv /workspace/docs/la-boite-a-sel/* /workspace/docs/ && rm -rf /workspace/docs/la-boite-a-sel",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },

@@ -5,6 +5,8 @@ import vue from '@vitejs/plugin-vue'
 
 const githubPageRepoBase = 'la-boite-a-sel'
 
+console.warn('NODE_ENV = ', process.env.NODE_ENV)
+
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],

@@ -5,7 +5,7 @@
     "prebuild": "node prebuild/bin/build-all-artist-manifest.js",
     "dev": "npm run prebuild && vite --host",
     "preview": "npm run prebuild && vite preview --port 5131 --host",
-    "build": "npm run prebuild && vite build",
+    "build": "NODE_ENV=production npm run prebuild && vite build",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {

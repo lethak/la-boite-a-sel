@@ -18,6 +18,7 @@ export default defineConfig({
     base: process.env.NODE_ENV === 'production' ? '/la-boite-a-sel/' : '/',
   },
   build: {
-    outDir: 'docs'
+    outDir: 'docs',
+    assetsDir: process.env.NODE_ENV === 'production' ? '' : 'assets',
   },
 })

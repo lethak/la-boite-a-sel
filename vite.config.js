@@ -21,7 +21,7 @@ export default defineConfig({
   },
   build: {
     outDir: 'docs',
-    assetsDir:
-      process.env.NODE_ENV === 'production' ? githubPageRepoBase : 'assets',
+    // assetsDir:
+    //   process.env.NODE_ENV === 'production' ? githubPageRepoBase : 'assets',
   },
 })

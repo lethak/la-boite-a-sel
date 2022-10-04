@@ -1,0 +1,417 @@
+{
+  "artists": {
+    "L66": {
+      "dirName": "L66",
+      "name": "L66",
+      "buttonLabel": "L66",
+      "sounds": {
+        "L66 - Ah bah oui.mp3": {
+          "fileName": "L66 - Ah bah oui.mp3",
+          "buttonLabel": "Ah bah oui",
+          "tags": [],
+          "transcript": "Ah bah oui",
+          "fileExists": true
+        },
+        "L66 - Ah on est morts.mp3": {
+          "fileName": "L66 - Ah on est morts.mp3",
+          "buttonLabel": "Ah on est morts",
+          "tags": [],
+          "transcript": "Ah on est morts",
+          "fileExists": true
+        },
+        "L66 - Allez!.mp3": {
+          "fileName": "L66 - Allez!.mp3",
+          "buttonLabel": "Allez!",
+          "tags": [],
+          "transcript": "Allez!",
+          "fileExists": true
+        },
+        "L66 - Aucun Interet.mp3": {
+          "fileName": "L66 - Aucun Interet.mp3",
+          "buttonLabel": "Aucun Interet",
+          "tags": [],
+          "transcript": "Aucun Interet",
+          "fileExists": true
+        },
+        "L66 - C'est dimanche.mp3": {
+          "fileName": "L66 - C'est dimanche.mp3",
+          "buttonLabel": "C'est dimanche",
+          "tags": [],
+          "transcript": "C'est dimanche",
+          "fileExists": true
+        },
+        "L66 - C'est initéressant.mp3": {
+          "fileName": "L66 - C'est initéressant.mp3",
+          "buttonLabel": "C'est initéressant",
+          "tags": [],
+          "transcript": "C'est initéressant",
+          "fileExists": true
+        },
+        "L66 - C'est pas pour aujourd'hui.mp3": {
+          "fileName": "L66 - C'est pas pour aujourd'hui.mp3",
+          "buttonLabel": "C'est pas pour aujourd'hui",
+          "tags": [],
+          "transcript": "C'est pas pour aujourd'hui",
+          "fileExists": true
+        },
+        "L66 - C'est pas ta faute.mp3": {
+          "fileName": "L66 - C'est pas ta faute.mp3",
+          "buttonLabel": "C'est pas ta faute",
+          "tags": [],
+          "transcript": "C'est pas ta faute",
+          "fileExists": true
+        },
+        "L66 - C'était pas du à qui de droit.mp3": {
+          "fileName": "L66 - C'était pas du à qui de droit.mp3",
+          "buttonLabel": "C'était pas du à qui de droit",
+          "tags": [],
+          "transcript": "C'était pas du à qui de droit",
+          "fileExists": true
+        },
+        "L66 - Ca changera rien.mp3": {
+          "fileName": "L66 - Ca changera rien.mp3",
+          "buttonLabel": "Ca changera rien",
+          "tags": [],
+          "transcript": "Ca changera rien",
+          "fileExists": true
+        },
+        "L66 - Ca n'existe pas.mp3": {
+          "fileName": "L66 - Ca n'existe pas.mp3",
+          "buttonLabel": "Ca n'existe pas",
+          "tags": [],
+          "transcript": "Ca n'existe pas",
+          "fileExists": true
+        },
+        "L66 - Celui la intéressant.mp3": {
+          "fileName": "L66 - Celui la intéressant.mp3",
+          "buttonLabel": "Celui la intéressant",
+          "tags": [],
+          "transcript": "Celui la intéressant",
+          "fileExists": true
+        },
+        "L66 - Ces fiottes de pigeon.mp3": {
+          "fileName": "L66 - Ces fiottes de pigeon.mp3",
+          "buttonLabel": "Ces fiottes de pigeon",
+          "tags": [],
+          "transcript": "Ces fiottes de pigeon",
+          "fileExists": true
+        },
+        "L66 - Comme il se doit.mp3": {
+          "fileName": "L66 - Comme il se doit.mp3",
+          "buttonLabel": "Comme il se doit",
+          "tags": [],
+          "transcript": "Comme il se doit",
+          "fileExists": true
+        },
+        "L66 - Decouvrir la fiente.mp3": {
+          "fileName": "L66 - Decouvrir la fiente.mp3",
+          "buttonLabel": "Decouvrir la fiente",
+          "tags": [],
+          "transcript": "Decouvrir la fiente",
+          "fileExists": true
+        },
+        "L66 - Devinez la fiente.mp3": {
+          "fileName": "L66 - Devinez la fiente.mp3",
+          "buttonLabel": "Devinez la fiente",
+          "tags": [],
+          "transcript": "Devinez la fiente",
+          "fileExists": true
+        },
+        "L66 - Encore une fois.mp3": {
+          "fileName": "L66 - Encore une fois.mp3",
+          "buttonLabel": "Encore une fois",
+          "tags": [],
+          "transcript": "Encore une fois",
+          "fileExists": true
+        },
+        "L66 - Et ca change quoi.mp3.mp3": {
+          "fileName": "L66 - Et ca change quoi.mp3.mp3",
+          "buttonLabel": "Et ca change quoimp3",
+          "tags": [],
+          "transcript": "Et ca change quoimp3",
+          "fileExists": true
+        },
+        "L66 - Et on va y aller.mp3": {
+          "fileName": "L66 - Et on va y aller.mp3",
+          "buttonLabel": "Et on va y aller",
+          "tags": [],
+          "transcript": "Et on va y aller",
+          "fileExists": true
+        },
+        "L66 - Exactement.mp3": {
+          "fileName": "L66 - Exactement.mp3",
+          "buttonLabel": "Exactement",
+          "tags": [],
+          "transcript": "Exactement",
+          "fileExists": true
+        },
+        "L66 - Hashtag Humour.mp3": {
+          "fileName": "L66 - Hashtag Humour.mp3",
+          "buttonLabel": "Hashtag Humour",
+          "tags": [],
+          "transcript": "Hashtag Humour",
+          "fileExists": true
+        },
+        "L66 - Il est mort.mp3": {
+          "fileName": "L66 - Il est mort.mp3",
+          "buttonLabel": "Il est mort",
+          "tags": [],
+          "transcript": "Il est mort",
+          "fileExists": true
+        },
+        "L66 - Interprétation.mp3": {
+          "fileName": "L66 - Interprétation.mp3",
+          "buttonLabel": "Interprétation",
+          "tags": [],
+          "transcript": "Interprétation",
+          "fileExists": true
+        },
+        "L66 - Je donne pas d'interet.mp3": {
+          "fileName": "L66 - Je donne pas d'interet.mp3",
+          "buttonLabel": "Je donne pas d'interet",
+          "tags": [],
+          "transcript": "Je donne pas d'interet",
+          "fileExists": true
+        },
+        "L66 - Je m'en cogne.mp3": {
+          "fileName": "L66 - Je m'en cogne.mp3",
+          "buttonLabel": "Je m'en cogne",
+          "tags": [],
+          "transcript": "Je m'en cogne",
+          "fileExists": true
+        },
+        "L66 - Jsuis mort.mp3": {
+          "fileName": "L66 - Jsuis mort.mp3",
+          "buttonLabel": "Jsuis mort",
+          "tags": [],
+          "transcript": "Jsuis mort",
+          "fileExists": true
+        },
+        "L66 - L'intelligence est de retour.mp3": {
+          "fileName": "L66 - L'intelligence est de retour.mp3",
+          "buttonLabel": "L'intelligence est de retour",
+          "tags": [],
+          "transcript": "L'intelligence est de retour",
+          "fileExists": true
+        },
+        "L66 - L'intéret du moulin.mp3": {
+          "fileName": "L66 - L'intéret du moulin.mp3",
+          "buttonLabel": "L'intéret du moulin",
+          "tags": [],
+          "transcript": "L'intéret du moulin",
+          "fileExists": true
+        },
+        "L66 - La betise existe.mp3": {
+          "fileName": "L66 - La betise existe.mp3",
+          "buttonLabel": "La betise existe",
+          "tags": [],
+          "transcript": "La betise existe",
+          "fileExists": true
+        },
+        "L66 - Le hasard de la recherche.mp3": {
+          "fileName": "L66 - Le hasard de la recherche.mp3",
+          "buttonLabel": "Le hasard de la recherche",
+          "tags": [],
+          "transcript": "Le hasard de la recherche",
+          "fileExists": true
+        },
+        "L66 - Le moulin a moudre.mp3": {
+          "fileName": "L66 - Le moulin a moudre.mp3",
+          "buttonLabel": "Le moulin a moudre",
+          "tags": [],
+          "transcript": "Le moulin a moudre",
+          "fileExists": true
+        },
+        "L66 - Le suicide.mp3": {
+          "fileName": "L66 - Le suicide.mp3",
+          "buttonLabel": "Le suicide",
+          "tags": [],
+          "transcript": "Le suicide",
+          "fileExists": true
+        },
+        "L66 - Les esprits.mp3": {
+          "fileName": "L66 - Les esprits.mp3",
+          "buttonLabel": "Les esprits",
+          "tags": [],
+          "transcript": "Les esprits",
+          "fileExists": true
+        },
+        "L66 - Merci à vous tous.mp3": {
+          "fileName": "L66 - Merci à vous tous.mp3",
+          "buttonLabel": "Merci à vous tous",
+          "tags": [],
+          "transcript": "Merci à vous tous",
+          "fileExists": true
+        },
+        "L66 - Mort gougniafiés.mp3": {
+          "fileName": "L66 - Mort gougniafiés.mp3",
+          "buttonLabel": "Mort gougniafiés",
+          "tags": [],
+          "transcript": "Mort gougniafiés",
+          "fileExists": true
+        },
+        "L66 - Ne soyez pas étonnés.mp3": {
+          "fileName": "L66 - Ne soyez pas étonnés.mp3",
+          "buttonLabel": "Ne soyez pas étonnés",
+          "tags": [],
+          "transcript": "Ne soyez pas étonnés",
+          "fileExists": true
+        },
+        "L66 - Nous somme structuriquement.mp3": {
+          "fileName": "L66 - Nous somme structuriquement.mp3",
+          "buttonLabel": "Nous somme structuriquement",
+          "tags": [],
+          "transcript": "Nous somme structuriquement",
+          "fileExists": true
+        },
+        "L66 - On est d'accord.mp3": {
+          "fileName": "L66 - On est d'accord.mp3",
+          "buttonLabel": "On est d'accord",
+          "tags": [],
+          "transcript": "On est d'accord",
+          "fileExists": true
+        },
+        "L66 - On est mourrus.mp3": {
+          "fileName": "L66 - On est mourrus.mp3",
+          "buttonLabel": "On est mourrus",
+          "tags": [],
+          "transcript": "On est mourrus",
+          "fileExists": true
+        },
+        "L66 - On est partis.mp3": {
+          "fileName": "L66 - On est partis.mp3",
+          "buttonLabel": "On est partis",
+          "tags": [],
+          "transcript": "On est partis",
+          "fileExists": true
+        },
+        "L66 - On s'en fout.mp3": {
+          "fileName": "L66 - On s'en fout.mp3",
+          "buttonLabel": "On s'en fout",
+          "tags": [],
+          "transcript": "On s'en fout",
+          "fileExists": true
+        },
+        "L66 - Ouaisssss.mp3": {
+          "fileName": "L66 - Ouaisssss.mp3",
+          "buttonLabel": "Ouaisssss",
+          "tags": [],
+          "transcript": "Ouaisssss",
+          "fileExists": true
+        },
+        "L66 - Oui bien sur.mp3": {
+          "fileName": "L66 - Oui bien sur.mp3",
+          "buttonLabel": "Oui bien sur",
+          "tags": [],
+          "transcript": "Oui bien sur",
+          "fileExists": true
+        },
+        "L66 - Pas de chance.mp3": {
+          "fileName": "L66 - Pas de chance.mp3",
+          "buttonLabel": "Pas de chance",
+          "tags": [],
+          "transcript": "Pas de chance",
+          "fileExists": true
+        },
+        "L66 - Pas de problèmes.mp3": {
+          "fileName": "L66 - Pas de problèmes.mp3",
+          "buttonLabel": "Pas de problèmes",
+          "tags": [],
+          "transcript": "Pas de problèmes",
+          "fileExists": true
+        },
+        "L66 - Qui rira bien....mp3": {
+          "fileName": "L66 - Qui rira bien....mp3",
+          "buttonLabel": "Qui rira bien",
+          "tags": [],
+          "transcript": "Qui rira bien",
+          "fileExists": true
+        },
+        "L66 - Tout va bien.mp3": {
+          "fileName": "L66 - Tout va bien.mp3",
+          "buttonLabel": "Tout va bien",
+          "tags": [],
+          "transcript": "Tout va bien",
+          "fileExists": true
+        },
+        "L66 - Vous verrez par vous meme.mp3": {
+          "fileName": "L66 - Vous verrez par vous meme.mp3",
+          "buttonLabel": "Vous verrez par vous meme",
+          "tags": [],
+          "transcript": "Vous verrez par vous meme",
+          "fileExists": true
+        },
+        "L66 - Whoohoohoohoo.mp3": {
+          "fileName": "L66 - Whoohoohoohoo.mp3",
+          "buttonLabel": "Whoohoohoohoo",
+          "tags": [],
+          "transcript": "Whoohoohoohoo",
+          "fileExists": true
+        }
+      }
+    },
+    "M66": {
+      "dirName": "M66",
+      "name": "M66",
+      "buttonLabel": "M66",
+      "sounds": {
+        "MICKAEL66 - Ah c'est SandwichTriangue.mp3": {
+          "fileName": "MICKAEL66 - Ah c'est SandwichTriangue.mp3",
+          "buttonLabel": "Ah c'est SandwichTriangue",
+          "tags": [],
+          "transcript": "Ah c'est SandwichTriangue",
+          "fileExists": true
+        },
+        "MICKAEL66 - Bouge pas sécurité.mp3": {
+          "fileName": "MICKAEL66 - Bouge pas sécurité.mp3",
+          "buttonLabel": "Bouge pas sécurité",
+          "tags": [],
+          "transcript": "Bouge pas sécurité",
+          "fileExists": true
+        },
+        "MICKAEL66 - Give me money.mp3": {
+          "fileName": "MICKAEL66 - Give me money.mp3",
+          "buttonLabel": "Give me money",
+          "tags": [],
+          "transcript": "Give me money",
+          "fileExists": true
+        },
+        "MICKAEL66 - Je peux l'ecraser.mp3": {
+          "fileName": "MICKAEL66 - Je peux l'ecraser.mp3",
+          "buttonLabel": "Je peux l'ecraser",
+          "tags": [],
+          "transcript": "Je peux l'ecraser",
+          "fileExists": true
+        },
+        "MICKAEL66 - Les gens du PVP.mp3": {
+          "fileName": "MICKAEL66 - Les gens du PVP.mp3",
+          "buttonLabel": "Les gens du PVP",
+          "tags": [],
+          "transcript": "Les gens du PVP",
+          "fileExists": true
+        },
+        "MICKAEL66 - Un francais qui parle russe.mp3": {
+          "fileName": "MICKAEL66 - Un francais qui parle russe.mp3",
+          "buttonLabel": "Un francais qui parle russe",
+          "tags": [],
+          "transcript": "Un francais qui parle russe",
+          "fileExists": true
+        },
+        "MICKAEL66 - What.mp3": {
+          "fileName": "MICKAEL66 - What.mp3",
+          "buttonLabel": "What",
+          "tags": [],
+          "transcript": "What",
+          "fileExists": true
+        },
+        "MICKAEL66 - Y'a Charlouf.mp3": {
+          "fileName": "MICKAEL66 - Y'a Charlouf.mp3",
+          "buttonLabel": "Y'a Charlouf",
+          "tags": [],
+          "transcript": "Y'a Charlouf",
+          "fileExists": true
+        }
+      }
+    }
+  }
+}

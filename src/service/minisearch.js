@@ -46,6 +46,7 @@ export const buildIndexFromArtistManifest = async () => {
   }
 
   window.searchIndex = searchIndex
+  return searchIndex
 }
 
 export default {

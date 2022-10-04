@@ -4,7 +4,7 @@ const stringify = require('json-stringify-pretty-compact')
 const merge = require('deepmerge')
 
 const manifestPath = path.resolve(
-  path.join(__dirname, '../manifest.built.json')
+  path.join(__dirname, '../../public/artists/manifest.built.json')
 )
 const artistDirectoryPath = path.resolve(
   path.join(__dirname, '../../public/artists')

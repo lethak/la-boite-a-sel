@@ -1,5 +1,3 @@
-const path = require('path')
-const files = require('../service/files')
 const manifestFactory = require('../service/manifestFactory')
 
 const run = async () => {

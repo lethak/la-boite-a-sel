@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "howler": "^2.2.3",
+    "minisearch": "^5.0.0",
     "pinia": "^2.0.21",
     "vue": "^3.2.38",
     "vue-router": "^4.1.5"
@@ -19,7 +20,6 @@
     "@vitejs/plugin-vue": "^3.0.3",
     "@vue/eslint-config-prettier": "^7.0.0",
     "deepmerge": "^4.2.2",
-    "elasticlunr": "^0.9.5",
     "eslint": "^8.22.0",
     "eslint-plugin-vue": "^9.3.0",
     "json-stringify-pretty-compact": "^3.0.0",
